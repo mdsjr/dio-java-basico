@@ -5,13 +5,13 @@ public class MinhaClasse {
         String primeiroNome = "Moacir";
         String segundoNome = "Domingos";
 
-        String nomeCompleto = nomeCompleto(primeiroNome, segundoNome)
+        String nomeCompleto = nomeCompleto(primeiroNome, segundoNome);
 
         System.out.println(nomeCompleto);
     }
 
     public static String nomeCompleto (String primeiroNome, String segundoNome) {
-        return primeiroNome.concat(" ").concat(segundoNome);
+        return "Resultado do método é " + primeiroNome.concat(" ").concat(segundoNome);
         
     }
     
